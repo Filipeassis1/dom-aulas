@@ -2,6 +2,8 @@
 
 let carro = ['fusca', 'brasilia','gol']
 
+carro.push('civic')
+
 
 // console.log(carro[0]);
 
@@ -23,6 +25,6 @@ let carro = ['fusca', 'brasilia','gol']
 // }
 
 
-carro.forEach(function(item){
-    console.log(item)
+carro.forEach(function(item, index, array){
+    console.log(item, index)
 })
