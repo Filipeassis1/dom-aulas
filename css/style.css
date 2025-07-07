@@ -12,3 +12,19 @@ button.active{
     background-color: black;
     color: white;
 }
+
+img{
+    display: block;
+}
+
+
+html{
+    background-color: antiquewhite;
+    transition: all .3s ease;
+}
+
+html.t-black{
+    background-color: black;
+    color: white;
+  
+}
